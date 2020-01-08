@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cstdio>
+
+using namespace std;
+
+long long a, b;
+ 
+ 
+
+int main(){
+	freopen("aplusbb.in", "r", stdin);
+	freopen("aplusbb.out", "w", stdout);
+	cin >> a;
+	cin >> b;
+	
+	cout << a + (b * b);
+	fclose(stdout);
+	return 0;
+} 
